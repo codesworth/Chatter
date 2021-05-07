@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC6420D2645FAF300A2B3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6420C2645FAF300A2B3CF /* AppDelegate.swift */; };
+		DAC6420F2645FAF300A2B3CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6420E2645FAF300A2B3CF /* SceneDelegate.swift */; };
+		DAC642112645FAF300A2B3CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC642102645FAF300A2B3CF /* ViewController.swift */; };
+		DAC642142645FAF300A2B3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC642122645FAF300A2B3CF /* Main.storyboard */; };
+		DAC642162645FAF600A2B3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC642152645FAF600A2B3CF /* Assets.xcassets */; };
+		DAC642192645FAF600A2B3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC642172645FAF600A2B3CF /* LaunchScreen.storyboard */; };
+		DAC642242645FAF600A2B3CF /* ChatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC642232645FAF600A2B3CF /* ChatterTests.swift */; };
+		DAC6422F2645FAF600A2B3CF /* ChatterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC6422E2645FAF600A2B3CF /* ChatterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC642202645FAF600A2B3CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC642012645FAF300A2B3CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC642082645FAF300A2B3CF;
+			remoteInfo = Chatter;
+		};
+		DAC6422B2645FAF600A2B3CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC642012645FAF300A2B3CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC642082645FAF300A2B3CF;
+			remoteInfo = Chatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAC642092645FAF300A2B3CF /* Chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC6420C2645FAF300A2B3CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAC6420E2645FAF300A2B3CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAC642102645FAF300A2B3CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAC642132645FAF300A2B3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC642152645FAF600A2B3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC642182645FAF600A2B3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAC6421A2645FAF600A2B3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC6421F2645FAF600A2B3CF /* ChatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC642232645FAF600A2B3CF /* ChatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterTests.swift; sourceTree = "<group>"; };
+		DAC642252645FAF600A2B3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC6422A2645FAF600A2B3CF /* ChatterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC6422E2645FAF600A2B3CF /* ChatterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterUITests.swift; sourceTree = "<group>"; };
+		DAC642302645FAF600A2B3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC642062645FAF300A2B3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC6421C2645FAF600A2B3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC642272645FAF600A2B3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC642002645FAF300A2B3CF = {
+			isa = PBXGroup;
+			children = (
+				DAC6420B2645FAF300A2B3CF /* Chatter */,
+				DAC642222645FAF600A2B3CF /* ChatterTests */,
+				DAC6422D2645FAF600A2B3CF /* ChatterUITests */,
+				DAC6420A2645FAF300A2B3CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC6420A2645FAF300A2B3CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC642092645FAF300A2B3CF /* Chatter.app */,
+				DAC6421F2645FAF600A2B3CF /* ChatterTests.xctest */,
+				DAC6422A2645FAF600A2B3CF /* ChatterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC6420B2645FAF300A2B3CF /* Chatter */ = {
+			isa = PBXGroup;
+			children = (
+				DAC6420C2645FAF300A2B3CF /* AppDelegate.swift */,
+				DAC6420E2645FAF300A2B3CF /* SceneDelegate.swift */,
+				DAC642102645FAF300A2B3CF /* ViewController.swift */,
+				DAC642122645FAF300A2B3CF /* Main.storyboard */,
+				DAC642152645FAF600A2B3CF /* Assets.xcassets */,
+				DAC642172645FAF600A2B3CF /* LaunchScreen.storyboard */,
+				DAC6421A2645FAF600A2B3CF /* Info.plist */,
+			);
+			path = Chatter;
+			sourceTree = "<group>";
+		};
+		DAC642222645FAF600A2B3CF /* ChatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC642232645FAF600A2B3CF /* ChatterTests.swift */,
+				DAC642252645FAF600A2B3CF /* Info.plist */,
+			);
+			path = ChatterTests;
+			sourceTree = "<group>";
+		};
+		DAC6422D2645FAF600A2B3CF /* ChatterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC6422E2645FAF600A2B3CF /* ChatterUITests.swift */,
+				DAC642302645FAF600A2B3CF /* Info.plist */,
+			);
+			path = ChatterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC642082645FAF300A2B3CF /* Chatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC642332645FAF600A2B3CF /* Build configuration list for PBXNativeTarget "Chatter" */;
+			buildPhases = (
+				DAC642052645FAF300A2B3CF /* Sources */,
+				DAC642062645FAF300A2B3CF /* Frameworks */,
+				DAC642072645FAF300A2B3CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatter;
+			productName = Chatter;
+			productReference = DAC642092645FAF300A2B3CF /* Chatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC6421E2645FAF600A2B3CF /* ChatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC642362645FAF600A2B3CF /* Build configuration list for PBXNativeTarget "ChatterTests" */;
+			buildPhases = (
+				DAC6421B2645FAF600A2B3CF /* Sources */,
+				DAC6421C2645FAF600A2B3CF /* Frameworks */,
+				DAC6421D2645FAF600A2B3CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC642212645FAF600A2B3CF /* PBXTargetDependency */,
+			);
+			name = ChatterTests;
+			productName = ChatterTests;
+			productReference = DAC6421F2645FAF600A2B3CF /* ChatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAC642292645FAF600A2B3CF /* ChatterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC642392645FAF600A2B3CF /* Build configuration list for PBXNativeTarget "ChatterUITests" */;
+			buildPhases = (
+				DAC642262645FAF600A2B3CF /* Sources */,
+				DAC642272645FAF600A2B3CF /* Frameworks */,
+				DAC642282645FAF600A2B3CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC6422C2645FAF600A2B3CF /* PBXTargetDependency */,
+			);
+			name = ChatterUITests;
+			productName = ChatterUITests;
+			productReference = DAC6422A2645FAF600A2B3CF /* ChatterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC642012645FAF300A2B3CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DAC642082645FAF300A2B3CF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					DAC6421E2645FAF600A2B3CF = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DAC642082645FAF300A2B3CF;
+					};
+					DAC642292645FAF600A2B3CF = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DAC642082645FAF300A2B3CF;
+					};
+				};
+			};
+			buildConfigurationList = DAC642042645FAF300A2B3CF /* Build configuration list for PBXProject "Chatter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC642002645FAF300A2B3CF;
+			productRefGroup = DAC6420A2645FAF300A2B3CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC642082645FAF300A2B3CF /* Chatter */,
+				DAC6421E2645FAF600A2B3CF /* ChatterTests */,
+				DAC642292645FAF600A2B3CF /* ChatterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC642072645FAF300A2B3CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC642192645FAF600A2B3CF /* LaunchScreen.storyboard in Resources */,
+				DAC642162645FAF600A2B3CF /* Assets.xcassets in Resources */,
+				DAC642142645FAF300A2B3CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC6421D2645FAF600A2B3CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC642282645FAF600A2B3CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC642052645FAF300A2B3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC642112645FAF300A2B3CF /* ViewController.swift in Sources */,
+				DAC6420D2645FAF300A2B3CF /* AppDelegate.swift in Sources */,
+				DAC6420F2645FAF300A2B3CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC6421B2645FAF600A2B3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC642242645FAF600A2B3CF /* ChatterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC642262645FAF600A2B3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC6422F2645FAF600A2B3CF /* ChatterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC642212645FAF600A2B3CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC642082645FAF300A2B3CF /* Chatter */;
+			targetProxy = DAC642202645FAF600A2B3CF /* PBXContainerItemProxy */;
+		};
+		DAC6422C2645FAF600A2B3CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC642082645FAF300A2B3CF /* Chatter */;
+			targetProxy = DAC6422B2645FAF600A2B3CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAC642122645FAF300A2B3CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC642132645FAF300A2B3CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC642172645FAF600A2B3CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC642182645FAF600A2B3CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC642312645FAF600A2B3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAC642322645FAF600A2B3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC642342645FAF600A2B3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesworth.Chatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC642352645FAF600A2B3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesworth.Chatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAC642372645FAF600A2B3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesworth.ChatterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatter.app/Chatter";
+			};
+			name = Debug;
+		};
+		DAC642382645FAF600A2B3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesworth.ChatterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatter.app/Chatter";
+			};
+			name = Release;
+		};
+		DAC6423A2645FAF600A2B3CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesworth.ChatterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatter;
+			};
+			name = Debug;
+		};
+		DAC6423B2645FAF600A2B3CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codesworth.ChatterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC642042645FAF300A2B3CF /* Build configuration list for PBXProject "Chatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC642312645FAF600A2B3CF /* Debug */,
+				DAC642322645FAF600A2B3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC642332645FAF600A2B3CF /* Build configuration list for PBXNativeTarget "Chatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC642342645FAF600A2B3CF /* Debug */,
+				DAC642352645FAF600A2B3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC642362645FAF600A2B3CF /* Build configuration list for PBXNativeTarget "ChatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC642372645FAF600A2B3CF /* Debug */,
+				DAC642382645FAF600A2B3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC642392645FAF600A2B3CF /* Build configuration list for PBXNativeTarget "ChatterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC6423A2645FAF600A2B3CF /* Debug */,
+				DAC6423B2645FAF600A2B3CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC642012645FAF300A2B3CF /* Project object */;
+}
